@@ -1,0 +1,5 @@
+var key = '123456789trytrytry'
+var encryptor = require('simple-encryptor')(key);
+
+var encrypted = encryptor.encrypt(req.body.password);
+    newUser.password = encrypted;
